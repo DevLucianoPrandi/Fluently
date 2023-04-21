@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function () {
+function Navbar () {
   return (
-    <div className='header'></div>
+    <header>Prueba de barra de navegación</header>
   )
 }
+export default Navbar
