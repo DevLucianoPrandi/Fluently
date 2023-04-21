@@ -1,0 +1,18 @@
+.footer{
+    background-color: slategrey;
+    color:#ffffff;
+    width: 100%;
+    height: 20rem;
+    align-items: center;
+}
+
+.logofoot {
+    width: 10rem;
+    float: left;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

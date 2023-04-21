@@ -1,6 +1,69 @@
-header{
-    background-image: url('../src/assets/img/arriba.svg');
-    background-position: top center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+  }
+.barra {
+    height: 10rem;
+    width: 100%;
+    background-color: #0066FF;
     background-repeat: no-repeat;
     background-size: cover;
+    min-width: 100%;
+    box-shadow: 0px 8px 9px -9px #3b3b3b;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    width: 20rem;
+    float: left;
+}
+
+.navbar{
+    display: inline-block;
+    align-items: center;
+
+}
+
+ul {
+    float: left;
+    border: solid #ffffff 2px;
+    border-radius: 0.5rem;
+    display: flex;
+}
+
+li {
+    display: inline-block;
+    align-items: center;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: larger;
+    margin: 0.5rem 2rem;
+    justify-content: space-around;
+    display: flex;
+}
+
+.btnReserva {
+    background-color: #dd0832;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: larger;
+    border: none;
+    box-shadow: 5px 8px 9px -9px #3b3b3b;
+    padding: 1rem;
+    display: flex;
 }
