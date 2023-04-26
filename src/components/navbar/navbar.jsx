@@ -9,7 +9,7 @@ function Navbar() {
         <img src={Logo} alt="Fluently-logo" />
       </div>
       <div className='navbar'>
-        <ul>
+        <ul className='items'>
           <li>Home</li>
           <li>Servicios</li>
           <li>Idiomas</li>
